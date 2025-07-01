@@ -1,0 +1,26 @@
+Here are the results for each pattern applied to the test string:
+
+a. **`'[ ]e[^ ]*'`**  
+   Matches all words starting with "e" preceded by a space:  
+   **Output**:  
+   `[' engineer', ' enjoys', ' experimenting', ' exciting', ' enhance', ' efficiency', ' elevate', ' experiences', ' everyone.']`
+
+b. **`'[A-Z][a-z]*'`**  
+   Matches words starting with an uppercase letter:  
+   **Output**:  
+   `['Every', 'It']`
+
+c. **`'[A-Za-z]*[aeiou]{2}[A-Za-z]*'`**  
+   Matches words containing at least two consecutive vowels:  
+   **Output**:  
+   `['engineer', 'efficiency', 'experiences']`
+
+d. **`'[A-Za-z]*y[ .]'`**  
+   Matches words ending with "y" followed by a space or a period:  
+   **Output**:  
+   `['Every ', 'efficiency ']`
+
+e. **`r'\b\w{5}\b'`**  
+   Matches words with exactly 5 characters:  
+   **Output**:  
+   `['Every']`

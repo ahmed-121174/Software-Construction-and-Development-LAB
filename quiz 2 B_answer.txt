@@ -1,0 +1,36 @@
+1:
+soup.select('h1, h5')
+This selects all <h1> and <h5> tags.
+Answer:
+Hello WorldSoftware Construction
+Software Construction
+
+2:
+soup.select('h1 h5')
+This selects <h5> tags that are direct children of <h1> tags.
+Answer:
+Software Construction
+
+3:soup.select('.highlight')
+This selects all elements with the class highlight.
+Answer:
+This is highlighted important data.
+
+4:
+soup.select('.section h3')
+This selects all <h3> tags inside elements with the class section.
+Answer:
+Subsection 1
+Subsection 2
+
+5:
+soup.find_all('p') with condition
+This selects all <p> tags, excluding those containing the word 'keyword'.
+Answer:
+This is some text about data formats.
+More information without the keyword.
+This paragraph contains useful data.
+This is highlighted important data.
+This paragraph should not be selected.
+Some other random text.
+

@@ -1,0 +1,11 @@
+# Test your FastAPI endpoints
+
+GET http://172.20.10.2:9090/
+Accept: application/json
+
+###
+
+GET http://172.20.10.2:9090/hello/User
+Accept: application/json
+
+###

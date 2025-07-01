@@ -1,0 +1,40 @@
+Question 1:
+a. Which decorator is used to define a GET endpoint in FastAPI?
+Answer: 1. @app.get()
+
+b. What would @app.post("/items/{item_id}") define?
+Answer: 2. A route to create a new item with a given ID
+
+c. What library does FastAPI use for data validation?
+Answer: 1. Pydantic
+
+d. In FastAPI, how do you define a route for a GET request?
+Answer: 1. @app.get("/path")
+
+e. What is the primary web server used with FastAPI in production?
+Answer: 2. Gunicorn with Uvicorn workers
+
+Question 2:
+
+What are the two main auto-generated documentation UIs provided by FastAPI?
+Answer:
+a. Swagger UI
+b. ReDoc
+
+What are the key features of FastAPI that contribute to its high performance?
+Answer:
+
+Asynchronous capabilities via Python's asyncio.
+Built-in validation using Pydantic.
+Automatic generation of interactive API documentation.
+
+How can you handle path parameters in FastAPI, and what are the best practices for their usage?
+Answer:
+
+Path parameters are defined by enclosing them in curly braces in the route definition.
+Best practices include using descriptive names and type annotations for parameters.
+
+What type of server does FastAPI recommend for running applications in production?
+Answer:
+
+Gunicorn with Uvicorn workers.

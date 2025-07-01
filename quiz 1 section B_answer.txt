@@ -1,0 +1,31 @@
+Refactored code:
+
+def generate_numbers(limit):
+    return list(range(limit))
+
+def double_numbers(numbers):
+    return [num * 2 for num in numbers]
+
+def main():
+    numbers = generate_numbers(5)
+    doubled_numbers = double_numbers(numbers)
+    print(doubled_numbers)
+
+if __name__ == "__main__":
+    main()
+Output: [0, 2, 4, 6, 8]
+
+Question 2 Outputs:
+part1:
+0
+6
+6
+24
+12
+96
+18
+384
+________________
+part2:
+[9, 54]
+

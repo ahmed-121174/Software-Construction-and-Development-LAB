@@ -1,0 +1,49 @@
+Question 1 Output:
+
+Input: 100.0
+Output:
+Starting the checkout process...
+Final amount after 10% discount: 90.0
+Checkout process completed.
+
+Input: 100.0.0
+Output:
+Starting the checkout process...
+Caught ValueError: Invalid input string: Please enter a numeric value
+Checkout process completed.
+
+Question 2 Output:
+
+Output:
+Caught an error: TypeError
+
+
+Question 3 Output:
+
+Output:
+Program completed successfully.
+
+
+Question 4 Output:
+
+Output:
+Caught: This is a custom error
+Final block executed
+
+Question 5 Output:
+
+Input 1: numerator = 5, denominator = 0
+Output:
+Cannot divide by zero
+Execution completed.
+
+Input 2: numerator = 5, denominator = 1
+Output:
+Cannot divide by one.
+Execution completed.
+
+Input 3: numerator = a (non-numeric), denominator = 0
+Output:
+Invalid input.
+Execution completed.
+
